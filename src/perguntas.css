@@ -1,0 +1,22 @@
+.botoes{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 100vh;
+}
+
+.botao{
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  border-radius: 1rem !important;
+  color: #fff !important;
+  background-color: #F71963 !important;
+}
+
+.botaoGeral{
+  margin-top: 0.5rem !important;
+  margin-bottom: 4rem !important;
+  border-radius: 1rem !important;
+  color: #fff !important;
+  background-color: #212529 !important;
+}
