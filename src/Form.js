@@ -1,12 +1,13 @@
 import React from 'react';
 import { Image, Form, Button } from 'semantic-ui-react';
 import img from './images/logo.png';
+import './perguntas.css'
 
 export default class FormJs extends React.Component {
   render() {
     return (
         <div>
-            <Image src={img} /> 
+            <Image src={img} />
             <div style={{ textAlign: 'center' }}>
                 <span className="textInfos" style={{ fontSize: '35px', fontWeight: 'bold' }}>Informações Pessoais</span>
             </div>
@@ -20,7 +21,8 @@ export default class FormJs extends React.Component {
                         <label style={{ fontSize: '20px', marginBottom: '20px' }}>CPF</label>
                         <input placeholder='CPF' style={{ borderRadius: '1rem' }} />
                     </Form.Field>
-                    <Button type='submit' style={{ backgroundColor: 'rgb(33, 37, 41)', borderRadius: '1rem' }}>Submit</Button>
+
+                    <Button onClick = {() => this.props.onButtonClick()}  className="botaoGeral">Submit</Button>
                 </Form>
             </div>
         </div>

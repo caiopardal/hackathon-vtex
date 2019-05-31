@@ -1,0 +1,33 @@
+.botoes{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-top: 8rem;
+}
+
+.botao{
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  border-radius: 1rem !important;
+  color: #fff !important;
+  background-color: #F71963 !important;
+  align-self: center!important;
+  width: 15rem !important;
+}
+
+.botaoGeral{
+  margin-top: 0.5rem !important;
+  margin-bottom: 4rem !important;
+  border-radius: 1rem !important;
+  color: #fff !important;
+  background-color: #212529 !important;
+}
+
+.titulo{
+  text-align: center;
+}
+
+.img{
+  margin: auto;
+  margin-bottom: 1rem;
+}
